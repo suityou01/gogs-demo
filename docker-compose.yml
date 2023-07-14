@@ -1,0 +1,8 @@
+version: '3.8'
+services:
+  gogs:
+    image: gogs/gogs
+    ports:
+      - "10022:22"
+      - "10880:3000"
+    
